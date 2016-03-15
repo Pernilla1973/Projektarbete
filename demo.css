@@ -1,0 +1,65 @@
+body {
+    font-family: 'georgia', 'times new roman', serif;}
+
+#invicible {
+    width: 100%;
+    height: 250px;}
+
+.leftdiv {
+    width: 50%;
+    height: 150px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    float: left;}
+
+.rightdiv {
+    width: 50%;
+    height: 150px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    float: right;}
+
+a { 
+    display: block;
+    font-size: 72pt;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 4px  #262626;
+    width: 80%;
+    height: 150px;
+    line-height: 150px;
+    color: white; 
+    background-color: black;
+    border: 2px solid black;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: auto;
+    margin-right: auto;}
+
+#blue {
+    background-color: #668cff;
+    border-color: #000099;} 
+
+#blue:hover {
+    background-color: #1a53ff;}
+
+#red {
+    background-color: #ff8080;
+    border-color: #990000;} 
+
+#red:hover {
+    background-color: #e60000;}
+
+#green {
+    background-color: #88ff4d;
+    border-color: #226600;} 
+
+#green:hover {
+    background-color: #3bb300;}
+
+#yellow {
+    background-color: #ffff80;
+    border-color: #ffcc00; } 
+
+#yellow:hover {
+    background-color: #ffe680;}
