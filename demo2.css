@@ -1,7 +1,15 @@
 body {
-    color: white;
     font-size: 24pt;
     background-image: url("background2.png");
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: line-through;
 }
 
 #klick1{
