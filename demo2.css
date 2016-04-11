@@ -1,6 +1,7 @@
 body {
-    font-size: 24pt;
+    font-size: 36pt;
     background-image: url("background2.png");
+    background-repeat: no-repeat;
 }
 
 a {
@@ -8,24 +9,52 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: line-through;
+div {
+    box-sizing: content-box;
+    border: solid grey 3px;
+    background-color: white;
+    opacity: 0.7;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 35px;
+    height: 35px;
+    width: 35px;
 }
 
-#klick1{
+#klick1 {
     display: block;
-    margin-top: 310px;
-    margin-left: 550px;
+    margin-top: 325px;
+    margin-bottom: 65px;
+    margin-left: 600px;
+}
+
+#klick1:hover {
+    box-sizing: content-box;
+    padding-left: 65px;
+    padding-bottom: 65px;
+    margin-bottom: 0px;
 }
 
 #klick2 {
     display: block;
-    margin-top: 75px;
-    margin-left: 100px;
+    margin-left: 120px;
+    margin-bottom: 65px;
+}
+
+#klick2:hover {
+    box-sizing: content-box;
+    padding-left: 65px;
+    padding-bottom: 65px;
+    margin-bottom: 0px;
 }
 
 #klick3 {
     display: block;
-    margin-top: 100px;
-    margin-left: 600px;
+    margin-left: 650px;
+}
+
+#klick3:hover {
+    box-sizing: content-box;
+    padding-left: 65px;
+    padding-bottom: 65px;
 }
