@@ -11,9 +11,9 @@ a {
 
 div {
     box-sizing: content-box;
-    border: solid grey 3px;
-    background-color: white;
-    opacity: 0.7;
+    border: solid white 3px;
+    background-color: none;
+    opacity: 1.0;
     border-radius: 50px;
     text-align: center;
     line-height: 35px;
@@ -30,9 +30,12 @@ div {
 
 #klick1:hover {
     box-sizing: content-box;
+    line-height: 100px;
     padding-left: 65px;
     padding-bottom: 65px;
     margin-bottom: 0px;
+    animation-name: expand;
+    animation-duration: 2s;
 }
 
 #klick2 {
@@ -43,9 +46,12 @@ div {
 
 #klick2:hover {
     box-sizing: content-box;
+    line-height: 100px;
     padding-left: 65px;
     padding-bottom: 65px;
     margin-bottom: 0px;
+    animation-name: expand;
+    animation-duration: 2s;
 }
 
 #klick3 {
@@ -57,4 +63,11 @@ div {
     box-sizing: content-box;
     padding-left: 65px;
     padding-bottom: 65px;
+    animation-name: expand;
+    animation-duration: 2s;
+}
+
+@keyframes expand {
+    from {padding-left: 0px; padding-bottom: 0px; margin-bottom: 65px;}
+    to {padding-left: 65px; padding-bottom: 65px; margin-bottom: 0px}
 }
