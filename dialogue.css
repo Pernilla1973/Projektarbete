@@ -1,0 +1,51 @@
+body {
+	background-image: url("bgphone.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+    font-family: 'helvetica', 'arial', sans-serif;
+}
+
+div#invicible {
+    width: 100%;
+    height: 450px;
+}
+
+div.left {
+	width: 50%;
+	float: left;
+}
+
+div.right {
+	width: 50%;
+	float: right;
+}
+
+div.dialogue {
+	display: flex;
+    width: 90%;
+    height: 75px;
+    margin-top: 12px;
+	margin-bottom: 12px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 75px;
+    background-color: black;
+    border: 2px solid white;
+	border-radius: 50px;
+}
+
+div.dialogue:hover {
+	background-color: white;
+}
+
+div.dialogue > a {
+    font-size: 16pt;
+	color: white; 
+	text-shadow: 1px 4px gray;
+    text-decoration: none;
+	margin: auto;
+  }
+
+div.dialogue > a:hover {
+	color: black;
+}

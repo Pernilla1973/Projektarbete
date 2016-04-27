@@ -1,17 +1,35 @@
 body {
-    font-size: 36pt;
     background-image: url("background2.png");
     background-repeat: no-repeat;
 }
 
 div.wrapper {
     display: flex;
-    box-sizing: content-box;
+    position: absolute; 
+	top: 0px;
+	left: 0px; 
     border: solid white 3px;
     opacity: 0.75;
     border-radius: 50%;
     height: 35px;
     width: 35px;
+}
+
+#wrapper1 {
+    margin-top: 325px;
+    margin-bottom: 65px;
+    margin-left: 600px; 
+}
+
+#wrapper2 {
+	margin-top: 410px;
+    margin-left: 150px;
+    margin-bottom: 65px;
+}
+
+#wrapper3 {
+	margin-top: 550px;
+    margin-left: 650px;
 }
 
 div.wrapper > div.centre {
@@ -22,26 +40,37 @@ div.wrapper > div.centre {
     border-radius: 50%;
 }
 
-div.wrapper:hover {
-    animation-name: expand;
-    animation-duration: 1s;
+div.wrapper > div.link {
+	display: flex;
+	position: absolute;
+	bottom: -25%;
+	left: 25%;
+	right: 25%;
+	height: 50%;
+	width: 50%;
+	background-color: lightgrey;
+	border: solid white 2px;
+	border-radius: 50%;
 }
 
-#klick1 {
-    margin-top: 325px;
-    margin-bottom: 65px;
-    margin-left: 600px; 
+div.wrapper > div.link > a {
+	font-size: 12pt;
+	text-decoration: none;
+	color: blue;
+	margin: auto;
 }
 
-#klick2 {
-    margin-left: 120px;
-    margin-bottom: 65px;
+div.wrapper > div.link > a:hover {
+	font-size: 16pt;
+	font-weight: 800;
 }
 
-#klick3 {
-    margin-left: 650px;
+div.wrapper > div#link1b {
+	left: 75%;
+	top: 25%;
+	bottom: 25%;
 }
 
-@keyframes expand {
-    from {height: 35px; width: 35px; margin-bottom: 65px;}
-    to {height: 100px; width: 100px; margin-bottom: 0px;}
+div.wrapper > div#link1b > a {
+	color: red;
+}
