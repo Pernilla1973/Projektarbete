@@ -79,5 +79,17 @@ $(document).ready(function () {
 		$("#centre3").fadeIn(500);
 		$("#link3").fadeOut(1000);
 	});
+	
+	$("#snowwhite").click(function () {
+		$("body").css({"background-image": "url(snowbg.png)"})
+	});
+	
+	$("#toad").click(function () {
+		$("body").css({"background-image": "url(toadbg.png)"})
+	});
     
+	$("#rosered").click(function () {
+		$("body").css({"background-image": "url(rosebg.png)"})
+	});
+	
 });
