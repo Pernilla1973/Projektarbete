@@ -1,5 +1,6 @@
 body {
 	background-image: url("bgphone.png");
+	/*background-color: aqua;*/
 	background-size: cover;
 	background-repeat: no-repeat;
     font-family: 'helvetica', 'arial', sans-serif;
@@ -23,14 +24,14 @@ div.right {
 div.dialogue {
 	display: flex;
     width: 90%;
-    height: 75px;
+    height: 74px;
     margin-top: 12px;
 	margin-bottom: 12px;
 	margin-left: auto;
 	margin-right: auto;
-	line-height: 75px;
+	line-height: 74px;
     background-color: black;
-    border: 2px solid white;
+	border: 2px solid white;
 	border-radius: 50px;
 }
 
@@ -43,6 +44,8 @@ div.dialogue > a {
 	color: white; 
 	text-shadow: 1px 4px gray;
     text-decoration: none;
+	text-align: center;
+	width: 90%;
 	margin: auto;
   }
 
