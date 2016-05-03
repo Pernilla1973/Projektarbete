@@ -1,9 +1,7 @@
 body {
 	background-image: url("bgphone.png");
-	/*background-color: aqua;*/
-	background-size: cover;
 	background-repeat: no-repeat;
-    font-family: 'helvetica', 'arial', sans-serif;
+    font-family: 'Merriweather Sans', 'helvetica', sans-serif;
 }
 
 div#invicible {
@@ -24,15 +22,16 @@ div.right {
 div.dialogue {
 	display: flex;
     width: 90%;
-    height: 74px;
+    height: 75px;
     margin-top: 12px;
 	margin-bottom: 12px;
 	margin-left: auto;
 	margin-right: auto;
-	line-height: 74px;
+	line-height: 75px;
     background-color: black;
 	border: 2px solid white;
 	border-radius: 50px;
+	opacity: 0.75;
 }
 
 div.dialogue:hover {
@@ -42,7 +41,7 @@ div.dialogue:hover {
 div.dialogue > a {
     font-size: 16pt;
 	color: white; 
-	text-shadow: 1px 4px gray;
+	text-shadow: 2px 2px 4px lightgray;
     text-decoration: none;
 	text-align: center;
 	width: 90%;

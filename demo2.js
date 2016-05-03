@@ -1,6 +1,10 @@
 $(document).ready(function () {
-	
+
+/*Döljer element när sidan laddas*/
 	$(".link").hide();
+	
+	$(".instructions").hide();
+	
 	
 /*Animationer vid musingång*/
 	
@@ -15,6 +19,7 @@ $(document).ready(function () {
 		$("#centre1").fadeOut(500);
 		$("#link1a").fadeIn(1000);
 		$("#link1b").fadeIn(1000);
+		$("#instructions1").fadeIn(250);
 	});
 	
 	$("#wrapper2").mouseenter(function () {
@@ -27,6 +32,7 @@ $(document).ready(function () {
 		}, 500);
 		$("#centre2").fadeOut(500);
 		$("#link2").fadeIn(1000);
+		$("#instructions2").fadeIn(250);
 	});
 
 	$("#wrapper3").mouseenter(function () {
@@ -39,6 +45,7 @@ $(document).ready(function () {
 		}, 500);
 		$("#centre3").fadeOut(500);
 		$("#link3").fadeIn(1000);
+		$("#instructions3").fadeIn(250);
 	});
 	
 /*Animationer vid musutgång*/
@@ -52,8 +59,9 @@ $(document).ready(function () {
 			marginBottom: "65px"
 		}, 500);
 		$("#centre1").fadeIn(500);
-		$("#link1a").fadeOut(1000);
-		$("#link1b").fadeOut(1000);
+		$("#link1a").fadeOut(250);
+		$("#link1b").fadeOut(250);
+		$("#instructions1").fadeOut(250);
 	});
 	
 	$("#wrapper2").mouseleave(function () {
@@ -65,7 +73,8 @@ $(document).ready(function () {
 			marginBottom: "65px"
 		}, 500);
 		$("#centre2").fadeIn(500);
-		$("#link2").fadeOut(1000);
+		$("#link2").fadeOut(250);
+		$("#instructions2").fadeOut(250);
 	});
 	
 	$("#wrapper3").mouseleave(function () {
@@ -77,19 +86,20 @@ $(document).ready(function () {
 			marginBottom: "65px"
 		}, 500);
 		$("#centre3").fadeIn(500);
-		$("#link3").fadeOut(1000);
+		$("#link3").fadeOut(250);
+		$("#instructions3").fadeOut(250);
 	});
 	
 	$("#snowwhite").click(function () {
-		$("body").css({"background-image": "url(snowbg.png)"})
+		$("body").css({"background-image": "url(snowbg.png)", "background-size": "cover"});
 	});
 	
 	$("#toad").click(function () {
-		$("body").css({"background-image": "url(toadbg.png)"})
+		$("body").css({"background-image": "url(toadbg.png)", "background-size": "cover"});
 	});
     
 	$("#rosered").click(function () {
-		$("body").css({"background-image": "url(rosebg.png)"})
+		$("body").css({"background-image": "url(rosebg.png)", "background-size": "cover"});
 	});
 	
 });
