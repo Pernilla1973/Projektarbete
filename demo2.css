@@ -1,16 +1,42 @@
 body {
-    background-image: url("background2.png");
+    background-image: url("dem2b.jpg");
     background-repeat: no-repeat;
 	/*background-size: cover;*/
 	font-family: 'Merriweather Sans', 'helvetica', sans-serif;
 	color: white;
 }
 
-div.wrapper {
+div.frame {
+	/*background-color: aqua;*/
+	position: absolute;
+	display: flex;
+	height: 100px;
+	width: 100px;
+}
+
+div#frame1 {
+	margin-top: 285px;
+	margin-left: 650px; 
+    margin-bottom: 65px;
+}
+
+div#frame2 {
+	margin-top: 370px;
+   	margin-left: 170px;
+    margin-bottom: 65px;
+}
+
+div#frame3 {
+	margin-top: 510px;
+    margin-left: 690px;
+}
+
+div.frame > div.wrapper {
     display: flex;
     position: absolute; 
 	top: 0px;
-	left: 0px; 
+	left: 0px;
+	margin: auto;
     border: solid white 3px;
     opacity: 0.75;
     border-radius: 50%;
@@ -18,24 +44,25 @@ div.wrapper {
     width: 35px;
 }
 
-#wrapper1 {
-    margin-top: 325px;
-    margin-bottom: 65px;
-    margin-left: 600px; 
+/*#frame1 > #wrapper1 {
+    left: 25px;
+	top: 25px;
+	margin: auto;
 }
 
-#wrapper2 {
-	margin-top: 410px;
-    margin-left: 150px;
-    margin-bottom: 65px;
+#frame1 > #wrapper2 {
+	left: 25px;
+	top: 25px;
+	margin: auto;
 }
 
-#wrapper3 {
-	margin-top: 550px;
-    margin-left: 650px;
-}
+#frame1 > #wrapper3 {
+left: 25px;
+top: 25px;
+margin: auto;
+}*/
 
-div.wrapper > div.centre {
+div.frame > div.wrapper > div.centre {
     height: 10px;
     width: 10px;
     background-color: white;
@@ -43,7 +70,7 @@ div.wrapper > div.centre {
     border-radius: 50%;
 }
 
-div.wrapper > div.link {
+div.frame > div.wrapper > div.link {
 	display: flex;
 	position: absolute;
 	bottom: -25%;
@@ -56,25 +83,25 @@ div.wrapper > div.link {
 	border-radius: 50%;
 }
 
-div.wrapper > div.link > a {
+div.frame > div.wrapper > div.link > a {
 	font-size: 12pt;
 	text-decoration: none;
 	color: blue;
 	margin: auto;
 }
 
-div.wrapper > div.link > a:hover {
+div.frame > div.wrapper > div.link > a:hover {
 	font-size: 16pt;
 	font-weight: 800;
 }
 
-div.wrapper > div#link1b {
+div.frame > div.wrapper > div#link1b {
 	left: 75%;
 	top: 25%;
 	bottom: 25%;
 }
 
-div.wrapper > div#link1b > a {
+div.frame > div.wrapper > div#link1b > a {
 	color: red;
 }
 
