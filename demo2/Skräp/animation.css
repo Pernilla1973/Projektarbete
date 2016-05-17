@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+}
+
+div.frame {
+	background-color: aqua;
+	display: flex;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin-top: 100px;
+	margin-left: 100px;
+	height: 100px;
+	width: 100px;
+}
+
+div.frame > div.wrapper {
+    display: flex;
+	position: absolute;
+	height: 35px;
+	width: 35px;
+	left: 25px;
+	top: 25px;
+	margin: auto;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+div.frame > div.wrapper > div.centre {
+    height: 10px;
+    width: 10px;
+    background-color: white;
+	margin: auto;
+    border-radius: 50%;
+}
+
+div.frame > div.wrapper > div.link {
+	display: flex;
+	position: absolute;
+	bottom: -25%;
+	left: 25%;
+	right: 25%;
+	height: 50%;
+	width: 50%;
+	background-color: red;
+	border-radius: 50%;
+}
+
+div.wrapper > div.link > a {
+	font-size: 12pt;
+	position: relative;
+	text-decoration: none;
+	color: blue;
+	margin: auto;
+}

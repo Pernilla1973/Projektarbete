@@ -1,7 +1,6 @@
 $(document).ready(function () {
 
 /*Döljer element när sidan laddas*/
-	/*use sctrict;*/
 	
 	$(".link").hide();
 	
@@ -131,15 +130,15 @@ $(document).ready(function () {
 	/*Byter bakgrund i dialogfönstret*/
 	
 	$("#snowwhite").click(function () {
-		$("body").css({"background-image": "url(snowbg.png)", "background-size": "cover"});
+		$("body").css({"background-image": "url(css-js/snowbg.png)"});
 	});
 	
 	$("#toad").click(function () {
-		$("body").css({"background-image": "url(toadbg.png)", "background-size": "cover"});
+		$("body").css({"background-image": "url(css-js/toadbg.png)", "background-repeat": "no-repeat"});
 	});
     
 	$("#rosered").click(function () {
-		$("body").css({"background-image": "url(rosebg.png)", "background-size": "cover"});
+		$("body").css({"background-image": "url(css-js/rosebg.png)"});
 	});
 	
 });
