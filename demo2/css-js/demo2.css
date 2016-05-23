@@ -90,19 +90,10 @@ div.frame > div.wrapper > div.link > a {
 	margin: auto;
 }
 
-div.frame > div.wrapper > div.link > a:hover {
-	font-size: 16pt;
-	font-weight: 800;
-}
-
 div.frame > div.wrapper > div#link1b {
 	left: 75%;
 	top: 25%;
 	bottom: 25%;
-}
-
-div.frame > div.wrapper > div#link1b > a {
-	color: red;
 }
 
 div.instructions {

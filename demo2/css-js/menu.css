@@ -1,0 +1,36 @@
+body {
+	background-image: url("Bakgrunder/bgmenu.jpg");
+    background-repeat: no-repeat;
+	font-family: 'Merriweather Sans', 'helvetica', sans-serif;
+	font-size: 42pt;
+	color: white;
+	background-color: Black;
+}
+
+li {
+	list-style: none;
+}
+
+li:hover {
+	list-style: disc;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: magenta;
+}
+
+a#play {
+	font-size: 58pt;
+}
+
+div {
+	position: absolute;
+	top: 100px;
+	left: 500px;
+	margin: 0px;
+}
